@@ -1,6 +1,5 @@
 ---
 title: My first page
-order: "5"
 ---
 **full description goes here**
 
@@ -9,3 +8,5 @@ order: "5"
 *   two
     
 *   three
+    
+*   four
