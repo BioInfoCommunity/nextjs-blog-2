@@ -8,3 +8,8 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: body, label: Body, type: rich-text }
+backend:
+  name: github
+  repo: BioInfoCommunity/nextjs-blog-2
+  branch: es   # this is where PagesCMS will commit
+  pull_request: true   # optional if supported by your version
