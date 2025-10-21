@@ -2,7 +2,7 @@ content:
   - name: posts
     label: Posts
     type: collection
-    path: posts   # not _posts
+    path: _posts   # not _posts
     view:
       fields: [title, body]
     fields:
