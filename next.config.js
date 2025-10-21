@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // enables static HTML export
+  output: 'export',
   images: {
-    unoptimized: true, // required for static export
+    unoptimized: true,
   },
-  trailingSlash: true, // optional: ensures proper paths for GitHub Pages
+  trailingSlash: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
