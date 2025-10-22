@@ -106,11 +106,11 @@
 												<hr class="vf-divider vf-u-margin__bottom-md">
 												<!-- Navigation -->
 												<nav>
-											      <ul>
+											      <ul class="vf-tree__list  vf-tree__list--1 | vf-list">
 											        {% assign pages_list = site.pages | sort: "title" %}
 											        {% for p in pages_list %}
 											          {% if p.title and p.url != "/" %}
-											            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+											            <li class="vf-tree__item"><a class="vf-tree__link" href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
 											          {% endif %}
 											        {% endfor %}
 											      </ul>
