@@ -107,6 +107,7 @@
 												<!-- Navigation -->
 												<nav>
 											      <ul class="vf-tree__list  vf-tree__list--1 | vf-list">
+												  <li class="vf-tree__item"><a class="vf-tree__link" href="/">Course overview</a></li>
 											        {% assign pages_list = site.pages | sort: "title" %}
 											        {% for p in pages_list %}
 											          {% if p.title and p.url != "/" %}
@@ -115,6 +116,7 @@
 											        {% endfor %}
 											      </ul>
 											    </nav>
+												<hr class="vf-divider vf-u-margin__bottom-md">
 												<p>
 													<a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons"
 															src="http://trainingcontent.embl.org/themes/custom/ebi_academy/images/CC_BY.png"
