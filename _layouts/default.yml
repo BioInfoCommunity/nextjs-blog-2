@@ -7,6 +7,13 @@
 
 	<link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css"
 		media="all" />
+	<style>
+	#ebi-hero-background {
+		background-image: url('https://acxngcvroo.cloudimg.io/v7/www.embl.org/files/wp-content/uploads/Online-tutorial.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	</style>
 </head>
 <body class="vf-body">
 	<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
