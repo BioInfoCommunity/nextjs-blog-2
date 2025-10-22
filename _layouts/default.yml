@@ -119,6 +119,18 @@
 												</p>
 												<div class="vf-u-margin__top--500"></div>
 												<hr class="vf-divider vf-u-margin__bottom-md">
+
+												<!-- Navigation -->
+												<nav>
+											      <ul>
+											        {% assign pages_list = site.pages | sort: "title" %}
+											        {% for p in pages_list %}
+											          {% if p.title and p.url != "/" %}
+											            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+											          {% endif %}
+											        {% endfor %}
+											      </ul>
+											    </nav>
 											</div>
 											<!-- Sidebar end -->
 											<div class="acc">
