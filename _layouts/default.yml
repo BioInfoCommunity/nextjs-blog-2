@@ -107,7 +107,7 @@
 												<!-- Navigation -->
 												<nav>
 											      <ul class="vf-tree__list  vf-tree__list--1 | vf-list">
-												  <li class="vf-tree__item"><a class="vf-tree__link" href="/">Course overview</a></li>
+												  <li class="vf-tree__item"><a class="vf-tree__link" href="/nextjs-blog-2/">Course overview</a></li>
 											        {% assign pages_list = site.pages | sort: "title" %}
 											        {% for p in pages_list %}
 											          {% if p.title and p.url != "/" %}
