@@ -100,11 +100,21 @@
 													</li>
 												</ul>
 												<p class="vf-u-type__text-body--3 vf-u-margin--0 vf-u-margin__bottom-md">
-													Last reviewed:
-												<p class="vf-u-type__text-body--3 vf-u-margin--0">June 2025</p>
+													Last reviewed: June 2025</p>
 												</p>
 												<div class="vf-u-margin__top--500"></div>
 												<hr class="vf-divider vf-u-margin__bottom-md">
+												<!-- Navigation -->
+												<nav>
+											      <ul>
+											        {% assign pages_list = site.pages | sort: "title" %}
+											        {% for p in pages_list %}
+											          {% if p.title and p.url != "/" %}
+											            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+											          {% endif %}
+											        {% endfor %}
+											      </ul>
+											    </nav>
 												<p>
 													<a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons"
 															src="http://trainingcontent.embl.org/themes/custom/ebi_academy/images/CC_BY.png"
@@ -120,17 +130,7 @@
 												<div class="vf-u-margin__top--500"></div>
 												<hr class="vf-divider vf-u-margin__bottom-md">
 
-												<!-- Navigation -->
-												<nav>
-											      <ul>
-											        {% assign pages_list = site.pages | sort: "title" %}
-											        {% for p in pages_list %}
-											          {% if p.title and p.url != "/" %}
-											            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-											          {% endif %}
-											        {% endfor %}
-											      </ul>
-											    </nav>
+												
 											</div>
 											<!-- Sidebar end -->
 											<div class="acc">
