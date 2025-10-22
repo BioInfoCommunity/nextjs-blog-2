@@ -7,3 +7,4 @@ plugins:
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
