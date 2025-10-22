@@ -1,0 +1,6 @@
+title: My Site
+description: A simple Jekyll + GitHub Pages site
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
