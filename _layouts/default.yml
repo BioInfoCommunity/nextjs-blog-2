@@ -18,7 +18,12 @@
   </header>
 
   <main>
-    {{ content }}
+    <div class="vf-content">
+      <div class="vf-grid">
+        <div><p>side bar</p></div>
+        <div>{{ content }}</div>
+      </div>
+    </div>
   </main>
 
   <footer>
