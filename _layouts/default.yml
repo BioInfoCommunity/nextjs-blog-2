@@ -58,32 +58,6 @@
 													Time to complete: </p>
 												<p class="vf-u-type__text-body--3 vf-u-margin--0">3 hours</p>
 												</p>
-
-												<div class="vf-u-margin__top--500"></div>
-												<p class="vf-u-type__text-body--3 vf-u-margin--0 vf-u-margin__bottom-md">
-													This course includes:</p>
-
-												<div class="vf-u-margin__top--200"></div>
-												<ul class="vf-list vf-list--compact vf-u-margin__bottom-md">
-													<li class="vf-list__item vf-u-margin--0">
-														<span class="ebiacademy-icon vf-u-type__text-body--3 vf-u-margin--0">
-															<i class="icon icon-common icon-pencil-alt content-type-icon"></i>
-															<strong>Activities</strong>
-														</span>
-													</li>
-													<li class="vf-list__item vf-u-margin--0">
-														<span class="ebiacademy-icon vf-u-type__text-body--3 vf-u-margin--0">
-															<i class="icon icon-common icon-tasks content-type-icon"></i>
-															<strong>Quizzes</strong>
-														</span>
-													</li>
-													<li class="vf-list__item vf-u-margin--0">
-														<span class="ebiacademy-icon vf-u-type__text-body--3 vf-u-margin--0">
-															<i class="icon icon-common icon-video content-type-icon"></i>
-															<strong>Videos</strong>
-														</span>
-													</li>
-												</ul>
 												<hr class="vf-divider vf-u-margin__bottom-md">
 												<p class="vf-u-type__text-body--3 vf-u-margin--0 vf-u-margin__bottom--xs">
 													Written by:</p>
